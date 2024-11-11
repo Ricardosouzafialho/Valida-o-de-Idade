@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    font-size: 2em;
+    text-align: center;
+    color: #ffd700;
+}
+
+nav{
+   position: fixed;
+   top: 0px; 
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
+   padding: 20px 0;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px;
+}
+
+#home{
+    padding: 10em;
+   background-image: linear-gradient(to right, black, gold);
+}
+
+#home h2{
+    font-size: 5em;
+    width: 50%;
+    color: #ffd700;
+    margin-right: 5em;
+}
+
+.conjunto{
+    display: flex;
+}
+
+img{
+    height: 500px;
+    
+    margin-top: -5em;
+}
+
+#home p{
+    color: #ffffff;
+    margin-left: -5em;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    padding: 20px 0px;
+}
+
+#bebidas h2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.bebidas1{
+    display: flex;
+    margin-top: 6em;
+    margin-left: 3em;
+    
+}
+
+.bebidas1 img{
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.bebidas1 p{
+    padding: 0px 20px;
+    font-size: 2em;
+}
+
+.bebidas2{
+    
+}
